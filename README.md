@@ -17,7 +17,8 @@ It includes **interactive SHAP explainability, feature importance, fairness dash
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Lalithreddy-12/Hospital_LOS.git
-   cd hospital_los
+   cd hospital_los #if the directory not accessed then try below command
+   cd hospital_los_project
    ```
 
 2. **Create and activate a virtual environment:**
