@@ -4,17 +4,13 @@
 This project predicts **hospital length of stay (LOS)** using a trained machine learning model.  
 It includes **interactive SHAP explainability, feature importance, fairness dashboards, and model evaluation**, making it presentation-ready.
 
----
-
-## 🔹 Features
+## Features
 
 - **Predict Patient LOS** with custom alerts for high-risk patients.
 - **Interactive SHAP explainability** to understand feature contributions.
 - **Global Feature Importance Dashboard**.
 - **Fairness Report** by Gender and Age groups.
 - **Model Evaluation Tab** showing overall performance and group-wise MAE.
-
----
 
 ## Setup (Local + GitHub)
 
