@@ -1,0 +1,19 @@
+# Python
+*.pyc
+__pycache__/
+*.pkl
+*.joblib
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Data
+logs/
+
+# Streamlit cache
+.streamlit/
+
+# IDE
+.vscode/
