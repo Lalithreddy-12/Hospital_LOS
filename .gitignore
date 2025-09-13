@@ -12,6 +12,7 @@ venv/
 
 # Data
 logs/
+out/
 
 # Streamlit cache
 .streamlit/
