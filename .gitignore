@@ -1,4 +1,5 @@
-# Python
+# 1️⃣ Create .gitignore (overwrite if it exists)
+echo "# Python
 *.pyc
 __pycache__/
 *.pkl
@@ -16,4 +17,18 @@ logs/
 .streamlit/
 
 # IDE
-.vscode/
+.vscode/" > .gitignore
+
+# 2️⃣ Remove previously committed unwanted files from git cache (without deleting locally)
+git rm -r --cached .venv
+git rm -r --cached logs
+git rm -r --cached .streamlit
+
+# 3️⃣ Stage all changes
+git add .
+
+# 4️⃣ Commit changes
+git commit -m "Setup .gitignore, remove cached unwanted files, and update repo"
+
+# 5️⃣ Push to GitHub
+git push -u origin main
